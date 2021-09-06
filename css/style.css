@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
 /* Desktop 1 */
 #ajude-apito {
     background-color: #FFC519;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -23,12 +26,13 @@ header {
     line-height: 165px;
     letter-spacing: 0em;
     color: white;
-    margin-top: 4%;
+    margin-top: 51px;
 }
 
 .card {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card p {
@@ -38,13 +42,11 @@ header {
     font-size: 24px;
     line-height: 27px;
     text-align: left;
-    margin-left: 6%;
-    margin-right: 5%;
+    width: 633px;
 }
 
 .card img {
-    margin-right: 6%;
-    width: 45%;
+    width: 653px;
 }
 
 button{
@@ -57,9 +59,8 @@ button{
     font-weight: bold;
     font-size: 64px;
     line-height: 110px;
-    text-align: center;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-bottom: 36px;
+    margin-top: 60px;   
 }
 
 a {
@@ -82,22 +83,20 @@ a {
     line-height: 165px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 55px;
 }
 
 #quem-somos-conteudo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 8%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-bottom: 99px;
 
 }
 
 #quem-somos-conteudo img {
-    width: 45%;
-    margin-right: 6%;
+    width: 656px;
 }
 
 #quem-somos-conteudo p {
@@ -106,6 +105,7 @@ a {
     font-weight: bold;
     font-size: 26px;
     line-height: 27px;
+    width: 593px;
 }
 
 /* Desktop 3 */
@@ -122,17 +122,16 @@ a {
     font-weight: bold;
     font-size: 96px;
     line-height: 165px;
-    text-align: center;
     color: white;
-    margin-top: 2%;
+    margin-top: 59px;
+    text-align: center;
 }
 
 #queremos-mais-conteudo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 6%;
-    margin-right: 6%;
+    flex-wrap: wrap;
 }
 
 #queremos-mais-conteudo p {
@@ -143,11 +142,18 @@ a {
     line-height: 28px;
     margin-right: 5%;
     color: white;
+    width: 593px;
+}
+
+#queremos-mais-conteudo img {
+    width: 650px;
 }
 
 #queremos-mais-botao {
     text-align: center;
 }
+
+/* Desktop 4 */
 
 #grafico-dinheiro {
     display: flex;
@@ -162,5 +168,5 @@ a {
     font-size: 96px;
     text-align: center;
     line-height: 104%;
-    margin-top: 4%;
+    margin-top: 42px;
 }
