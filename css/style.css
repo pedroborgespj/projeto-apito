@@ -82,7 +82,7 @@ a {
     line-height: 165px;
     letter-spacing: 0em;
     text-align: center;
-
+    margin-top: 2%;
 }
 
 #quem-somos-conteudo {
@@ -124,6 +124,7 @@ a {
     line-height: 165px;
     text-align: center;
     color: white;
+    margin-top: 2%;
 }
 
 #queremos-mais-conteudo {
@@ -146,4 +147,20 @@ a {
 
 #queremos-mais-botao {
     text-align: center;
+}
+
+#grafico-dinheiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grafico-dinheiro h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    text-align: center;
+    line-height: 104%;
+    margin-top: 4%;
 }
