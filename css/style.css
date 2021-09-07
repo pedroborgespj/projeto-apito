@@ -9,6 +9,54 @@ header {
     text-align: center;
 }
 
+header img {
+    max-width: 100%;
+}
+
+/* Configurações padrões */
+.titulo {
+    font-size: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165px;
+    letter-spacing: 0em;
+    max-width: 100%;
+}
+
+.imagem {
+    width: 653px;
+}
+
+.imagem-card {
+    width: 100%;
+}
+
+
+button{
+    height: 92px;
+    background-color: #0BC01D;
+    border-radius: 16px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 110px;
+    margin-bottom: 36px;
+    margin-top: 60px;
+    max-width: 100%;
+    width: 844px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 /* Desktop 1 */
 #ajude-apito {
     background-color: #FFC519;
@@ -18,13 +66,6 @@ header {
 }
 
 #ajude-apito h1 {
-    text-align: center;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 165px;
-    letter-spacing: 0em;
     color: white;
     margin-top: 51px;
 }
@@ -45,28 +86,6 @@ header {
     width: 633px;
 }
 
-.card img {
-    width: 653px;
-}
-
-button{
-    width: 844px;
-    height: 92px;
-    background-color: #0BC01D;
-    border-radius: 16px;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 110px;
-    margin-bottom: 36px;
-    margin-top: 60px;   
-}
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
 /* Desktop 2 */
 
@@ -76,13 +95,6 @@ a {
 }
 
 #quem-somos h1 {
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 165px;
-    letter-spacing: 0em;
-    text-align: center;
     margin-top: 55px;
 }
 
@@ -93,10 +105,6 @@ a {
     justify-content: space-evenly;
     margin-bottom: 99px;
 
-}
-
-#quem-somos-conteudo img {
-    width: 656px;
 }
 
 #quem-somos-conteudo p {
@@ -117,14 +125,8 @@ a {
 }
 
 #queremos-mais h1 {
-    font-family: 'Baloo Tamma 2', cursive;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 96px;
-    line-height: 165px;
     color: white;
     margin-top: 59px;
-    text-align: center;
 }
 
 #queremos-mais-conteudo {
@@ -145,11 +147,7 @@ a {
     width: 593px;
 }
 
-#queremos-mais-conteudo img {
-    width: 650px;
-}
-
-#queremos-mais-botao {
+.botao {
     text-align: center;
 }
 
@@ -162,11 +160,44 @@ a {
 }
 
 #grafico-dinheiro h1 {
-    font-family: 'Baloo Tamma 2', cursive;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 96px;
-    text-align: center;
     line-height: 104%;
     margin-top: 42px;
+}
+
+.imagem-grafico {
+    width: 70%
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 560px) {
+
+    * {
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .card p, #quem-somos-conteudo p, #queremos-mais-conteudo p {
+        font-family: 'Comfortaa', cursive;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        width: 370px;
+    }
+
+    .imagem-card {
+        width: 80%;
+    }
+
+    button {
+        width: 369px;
+        height: 55px;
+        font-size: 36px;
+        line-height: 62px;
+    }
 }
