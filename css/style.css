@@ -104,7 +104,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 99px;
-
 }
 
 #quem-somos-conteudo p {
@@ -137,12 +136,11 @@ a {
 }
 
 #queremos-mais-conteudo p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
-    margin-right: 5%;
     color: white;
     width: 593px;
 }
@@ -168,6 +166,141 @@ a {
     width: 70%
 }
 
+/* Desktop 5 */
+
+#doacao {
+    background-color: #85FD9A;
+    display: flex;
+    flex-direction: column;
+}
+
+#doacao h1 {
+    margin-top: 34px;
+}
+
+#doacao-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#doacao-conteudo #conteudo-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.doacao-imagem {
+    width: 250px;
+}
+
+#conteudo-1-texto {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 564px;
+}
+
+.botao-doacao {
+    width: 470px;
+}
+
+#ou {
+    width: 182px;
+    
+}
+
+#ou p {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165px;
+    font-size: 80px;
+}
+
+#conta h5 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+#conta p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    width: 473px;
+}
+
+#doacao-rodape {
+    text-align: center;
+    margin: auto;
+    width: 550px;
+    padding-top: 80px;
+    padding-bottom: 27px;
+}
+
+#doacao-rodape p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* Desktop 6 */
+#vaquinha {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 110px;
+}
+
+#vaquinha h1 {
+    margin-top: 19px;
+    margin-bottom: 70px;
+}
+
+#vaquinha-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#vaquinha-imagem {
+    width: 538px;
+}
+
+#vaquinha-imagem img {
+    width: 100%;
+}
+
+#vaquinha-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+#vaquinha-texto p {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    width: 593px;
+}
+
+.botao-vaquinha {
+    width: 550px;
+}
+
 /* Media Query */
 
 @media only screen and (max-width: 560px) {
@@ -177,11 +310,16 @@ a {
     }
 
     .titulo {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 200%;
+        height: 30vw;
     }
 
-    .card p, #quem-somos-conteudo p, #queremos-mais-conteudo p {
+    h1 {
+        height: 100%;
+        line-height: 130px;
+    }
+
+    .card p, #quem-somos-conteudo p, #queremos-mais-conteudo p, #vaquinha-texto p {
         font-family: 'Comfortaa', cursive;
         font-style: normal;
         font-weight: bold;
@@ -200,4 +338,167 @@ a {
         font-size: 36px;
         line-height: 62px;
     }
+
+    /* Desktop 1 */
+
+    #ajude-apito h1 {
+        overflow-wrap: break-word;
+        margin: 0;
+    }
+
+    .ajude-apito-imagem {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    /* Desktop 2 */
+
+    #quem-somos h1 {
+        margin-top: 0;
+    }
+
+    #quem-somos-conteudo {
+        margin-bottom: 50px;
+    }
+
+    .quem-somos-imagem {
+        margin-bottom: 20px;
+    }
+
+    /* Desktop 3 */
+    #queremos-mais h1 {
+        margin-top: 35px;
+        line-height: 55px;
+    }
+
+    .queremos-mais-imagem {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    /* Desktop 4 */
+    #grafico-dinheiro h1 {
+        line-height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .imagem-grafico {
+        margin-bottom: 20px;
+    }
+
+    /* Desktop 5 */
+    #doacao h1 {
+        line-height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #doacao-conteudo {
+        width: 100%;
+    }
+
+    .doacao-imagem {
+        width: 220px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #conteudo-1-texto{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        width: 300px;
+    }
+
+    .botao-doacao {
+        width: 100%;
+    }
+
+    .botao-doacao button{
+        max-width: 100%;
+        height: 85px;
+        font-size: 48px;
+    }
+
+    #ou {
+        width: 150px;
+        height: 80px;
+    }
+
+    #ou p{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    #conta {
+        max-width: 100%;
+    }
+
+    #conta h5{
+        padding-left: 25px;
+        text-align: left;
+        max-width: 100%;
+    }
+
+    #conta p{
+        text-align: left;
+        padding-left: 25px;
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 100%;
+    }
+
+    #doacao-rodape {
+        max-width: 100%;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    #doacao-rodape p {
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #64C575;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Desktop 6 */
+    #vaquinha {
+        padding-bottom: 30px;
+    }
+
+    #vaquinha h1 {
+        line-height: 45px;
+    }
+
+    #vaquinha-imagem {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    #vaquinha-texto {
+        width: 100%;
+    }
+
+    #vaquinha-texto p{
+        padding: 0 30px;
+        text-align: left;
+    }
+
+    .botao-vaquinha {
+        width: 100%;
+    }
+
+    .botao-vaquinha button {
+        height: 60%;
+        font-size: 48px;
+        line-height: 50px;
+    }
+
 }
