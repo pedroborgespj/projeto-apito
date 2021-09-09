@@ -481,18 +481,14 @@ a {
 
     /* Desktop 3 */
 
-    #grafico-dinheiro .titulo {
-        font-size: 200%;
-        height: 40vw;
-    }
-
     #queremos-mais h1 {
         margin-top: 35px;
         line-height: 55px;
     }
 
-    .imagem-grafico {
-        width: 100%
+    #queremos-mais .titulo {
+        font-size: 200%;
+        height: 30vw;
     }
 
     .queremos-mais-imagem {
@@ -507,7 +503,13 @@ a {
         padding-right: 10px;
     }
 
+    #grafico-dinheiro .titulo {
+        font-size: 200%;
+        height: 50vw;
+    }
+
     .imagem-grafico {
+        width: 100%;
         margin-bottom: 20px;
     }
 
