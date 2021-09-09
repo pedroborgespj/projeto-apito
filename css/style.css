@@ -7,6 +7,7 @@
 
 header {
     text-align: center;
+    padding: 20px 50px;
 }
 
 header img {
@@ -40,6 +41,7 @@ h1 {
 button{
     height: 92px;
     background-color: #0BC01D;
+    border: none;
     border-radius: 16px;
     font-family: 'Baloo Tamma 2', cursive;
     font-style: normal;
@@ -158,12 +160,14 @@ a {
 }
 
 #grafico-dinheiro h1 {
+    /* font-size: 5rem; */
     line-height: 104%;
     margin-top: 42px;
+    padding: 0 100px;
 }
 
 .imagem-grafico {
-    width: 70%
+    width: 50%
 }
 
 /* Desktop 5 */
@@ -303,6 +307,116 @@ a {
 
 /* Media Query */
 
+@media only screen and (max-width: 1302px) {
+    /* Desktop 1 */
+    .ajude-apito-imagem {
+        order: -1;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1263px) {
+    .queremos-mais-imagem {
+        order: -1;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    #doacao-conteudo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #ou {
+        width: 564px;
+        text-align: center;
+    }
+
+    #conta {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .titulo {
+        font-size: 300%;
+        height: 25vw;
+    }
+
+    h1 {
+        height: 100%;
+        line-height: 180px;
+    }
+
+     /* Desktop 1 */
+
+     #ajude-apito h1 {
+        overflow-wrap: break-word;
+        margin: 0;
+    }
+
+       /* Desktop 2 */
+
+    #quem-somos h1 {
+        margin-top: 0;
+    }
+
+    /* Desktop 3 */
+    #queremos-mais h1 {
+        margin-top: 0;
+    }
+
+    /* Desktop 4 */
+    #grafico-dinheiro h1 {
+        line-height: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* Desktop 6 */
+    #vaquinha h1 {
+        line-height: 70px;
+    }
+
+    #vaquinha-imagem {
+        padding: 20px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 705px) {
+    #queremos-mais .titulo {
+        font-size: 200%;
+        height: 25vw;
+    }
+
+    #grafico-dinheiro .titulo {
+        font-size: 200%;
+        height: 32vw;
+    }
+    
+    #doacao .titulo {
+        font-size: 250%;
+        height: 32vw;
+    }
+
+    #vaquinha-texto {
+        width: 100%;
+    }
+
+    #container-vaquinha-texto p {
+        width: 100%;
+    }
+
+    #botao-vaquinha {
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 560px) {
 
     * {
@@ -366,9 +480,19 @@ a {
     }
 
     /* Desktop 3 */
+
+    #grafico-dinheiro .titulo {
+        font-size: 200%;
+        height: 40vw;
+    }
+
     #queremos-mais h1 {
         margin-top: 35px;
         line-height: 55px;
+    }
+
+    .imagem-grafico {
+        width: 100%
     }
 
     .queremos-mais-imagem {
